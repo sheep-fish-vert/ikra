@@ -15,15 +15,17 @@
         .block-text{
 
             .text-with-background{background-repeat: no-repeat;background-position: center center;font-family: 'Intro', sans-serif;color:#fff;display: flex;align-items: center;justify-content: center;
-                h2{margin: 0 0 -25px -25px;}
+                h2{margin: 0 0 -25px -25px;font-size: 28px;}
                 span{font-size: 90px;text-transform: uppercase;}
             }
 
-            .easy-text{font-weight: 300;font-size: 25px;color:#212121;padding-right: 65px;
+            .easy-text{font-weight: 300;font-size: 25px;color:#212121;padding-left: 65px;
                 p{margin: 0;}
             }
 
-            &.block-text-right{text-align: right;}
+            &.block-text-right{text-align: right;
+                .easy-text{padding-right: 65px;padding-left:0;}
+            }
 
         }
 
