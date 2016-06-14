@@ -54,7 +54,7 @@
 
 /* block4 */
 
-    .block4{
+    .block4{position: relative;z-index: 2;
 
         .inside-wrap{background-image:url(../images/block4-background.jpg);margin: -35px 0;padding: 80px 0;}
 
