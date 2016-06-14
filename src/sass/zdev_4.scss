@@ -36,3 +36,60 @@
         }
     }
 }
+
+// block 5
+.block5{background: linear-gradient(to right, rgba(234,234,234,1) 0%,rgba(242,242,242,1) 50%,rgba(255,255,255,0) 100%);position: relative;overflow: hidden;
+    &:after{background:transparent url('../images/block-5.jpg') center top no-repeat;background-size: cover;position: absolute;top: 0;left: 0;max-height: 818px;pointer-events:none;height: 100%;width: 100%;content: '';}
+    .block-wrap{min-height: 1641px;align-items: flex-start;flex-direction: column;justify-content: flex-start;
+        .block-top{width: 100%;display: flex;justify-content: space-between;align-items: center;padding-top: 151px;
+            .item{
+                &.item-1{
+                    h2{position: relative;color: white;font-size: 44px;margin: 0;text-align: right;font-family: "Intro";
+                        &:after{width: 615px;height: 223px;background:transparent url('../images/block-5-kl.png') center center no-repeat;position: absolute;content: '';top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: -1;}
+                        span{font-size: 62px;}
+                    }
+
+                }
+            }
+        }
+        .block-bottom{display: flex;padding-top: 58px;align-items: flex-start;margin-bottom: 50px;
+            .item{width: 50%;display: flex;flex-wrap: wrap;flex-direction: column;justify-content: center;
+                &.item-1{padding-top: 30px;
+                    .item-list{margin-bottom: 49px;}
+                }
+                &.item-2{
+                    .item-img{display: flex;flex-direction:column;align-items: center;}
+                    .item-description{padding-left: 27%;}
+                    .item-text{margin-top: -9px;
+                        h4,.h4{font-size: 30px;color: #f95f06;padding-top: 4px;}
+                    }
+                    .item-button{
+                        a{background-color: #f96713;
+                            &:hover{background-color: rgb(255, 129, 56);}
+                        }
+                    }
+                }
+
+                .item-description{padding-left: 10%;}
+                .item-text{
+                    h4,.h4{font-family: 'Intro';font-size: 35px;color: #0da6d8;margin: 0;}
+                }
+                .item-subtext{color: #212121;font-size: 25px;font-weight: 700;line-height: 1.2;
+                    p{margin-top: 35px;margin-bottom: 22px;max-width: 287px;}
+                }
+                .item-list{
+                    ul{margin: 0;padding: 0;list-style-type: none;}
+                    li{font-size: 20px;color: #212121;font-weight: 300;position: relative;padding-left: 39px;font-size: 20px;color: rgb(33, 33, 33);line-height: 1.2;margin-bottom: 21px;
+                        &:after{width: 21px;height: 19px;position: absolute;top: 0;left: 0;background: url('../images/block5-cheked.png') center center no-repeat;content: '';}
+                    }
+                }
+                .item-button{
+                    a{color: white;text-decoration: none;font-size: 18px; border-radius: 10px;background-color: rgba(0, 161, 214, 0.949);text-align: center;display: flex;align-items: center;justify-content: center;width: 100%;max-width: 270px;height: 55px;transition:all ease .2s;
+                        &:hover{background-color: rgba(25, 197, 253, 0.949);}
+                    }
+                    span{width: 100%;}
+                }
+            }
+        }
+    }
+}
