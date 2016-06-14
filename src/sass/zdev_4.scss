@@ -38,7 +38,7 @@
 }
 
 // block 5
-.block5{background: linear-gradient(to right, rgba(234,234,234,1) 0%,rgba(242,242,242,1) 50%,rgba(255,255,255,0) 100%);position: relative;overflow: hidden;
+.block5{background: linear-gradient(to right, rgba(234,234,234,1) 0%,rgba(242,242,242,1) 50%,rgba(255,255,255,0) 100%);position: relative;overflow: hidden;margin-top: -40px;position: relative;z-index: 1;
     &:after{background:transparent url('../images/block-5.jpg') center top no-repeat;background-size: cover;position: absolute;top: 0;left: 0;max-height: 818px;pointer-events:none;height: 100%;width: 100%;content: '';}
     .block-wrap{min-height: 1641px;align-items: flex-start;flex-direction: column;justify-content: flex-start;
         .block-top{width: 100%;display: flex;justify-content: space-between;align-items: center;padding-top: 151px;
