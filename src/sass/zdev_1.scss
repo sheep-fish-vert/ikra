@@ -2,7 +2,7 @@
 /* skew-block */
 
     .skew-block{transform:skew(0deg, -2.5deg);overflow: hidden;transform-origin:50% 50%;
-       .inside-wrap{transform:skew(0deg, 2.5deg);transform-origin:50% 50%;background-image:url(../images/block3-background.png);background-size:cover;background-repeat: no-repeat;margin: -45px 0;padding:45px 0;}
+       .inside-wrap{transform:skew(0deg, 2.5deg);transform-origin:50% 50%;background-size:cover;background-repeat: no-repeat;margin: -45px 0;padding:45px 0;}
     }
 
 /* /skew-block */
@@ -15,15 +15,17 @@
         .block-text{
 
             .text-with-background{background-repeat: no-repeat;background-position: center center;font-family: 'Intro', sans-serif;color:#fff;display: flex;align-items: center;justify-content: center;
-                h2{margin: 0 0 -25px -25px;}
+                h2{margin: 0 0 -25px -25px;font-size: 28px;}
                 span{font-size: 90px;text-transform: uppercase;}
             }
 
-            .easy-text{font-weight: 300;font-size: 25px;color:#212121;padding-right: 65px;
+            .easy-text{font-weight: 300;font-size: 25px;color:#212121;padding-left: 65px;
                 p{margin: 0;}
             }
 
-            &.block-text-right{text-align: right;}
+            &.block-text-right{text-align: right;
+                .easy-text{padding-right: 65px;padding-left:0;}
+            }
 
         }
 
@@ -34,14 +36,40 @@
 /* block3 */
 
     .block3{
+
         .inside-wrap{background-image:url(../images/block3-background.png);}
 
-        .block-img{width: calc(100% - 531px);}
+        .block-wrap{
 
-        .block-text{
-            .text-with-background{background-image:url(../images/block-text-background-orange.png);width: 531px;height:225px;}
+            .block-img{width: calc(100% - 531px);}
+
+            .block-text{
+                .text-with-background{background-image:url(../images/block-text-background-orange.png);width: 531px;height:225px;}
+            }
         }
 
     }
 
 /* /block3 */
+
+/* block4 */
+
+    .block4{
+
+        .inside-wrap{background-image:url(../images/block4-background.jpg);margin: -35px 0;padding: 80px 0;}
+
+        .block-wrap{
+
+            .block-img{width: calc(100% - 545px);}
+
+            .block-text{
+                .text-with-background{background-image: url(../images/block-text-background-blue.png);width: 475px;height: 219px;
+                    h2{font-size: 41px;margin: 0 0 -15px 10px;}
+                }
+                .easy-text{color:#fff;}
+            }
+        }
+
+    }
+
+/* /block4 */
