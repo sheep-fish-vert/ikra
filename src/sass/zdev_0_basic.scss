@@ -97,5 +97,12 @@ input, textarea{
 
 //  example -> @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
 
+@include font-face('CoreSansNR', 'CoreSansNR-17CondThin', 200);
+@include font-face('CoreSansNR', 'CoreSansNR-37CondLight', 300);
+@include font-face('CoreSansNR', 'CoreSansNR-37CondLightItalic', 300, italic);
+@include font-face('CoreSansNR', 'CoreSansNR-47CondRegular');
+@include font-face('CoreSansNR', 'CoreSansNR-67CondBold', 700);
+@include font-face('CoreSansNR', 'CoreSansNR-77CnExtraBold', 800);
+@include font-face('Intro', 'Intro');
 
 /*/fonts*/
