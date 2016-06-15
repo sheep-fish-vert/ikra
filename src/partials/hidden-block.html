@@ -2,38 +2,102 @@
 
     <div id="call_success">
         <div class="call-success">
-             <div class="call_success">
-                 <div class="call-title">Спасибо за заявку!</div>
-                 <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
-             </div>
+            <div class="call_success">
+                <div class="call-title">Спасибо за заявку!</div>
+                <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+            </div>
         </div>
     </div>
 
     <div id="call-popup">
         <form action="ajax.php" name="" class="contact-form">
             <div class="contact-form-title">
-                <h5>Lorem ipsum dolor.</h5>
+                <h5>Узнать стоимость <br/> <span>продвижения </span> </h5>
             </div>
             <div class="contact-form-row cfix">
                 <div class="contact-form-item">
                     <div class="contact-form-item-input form_row">
                         <div class="form_input">
-                            <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                            <p>Ссылка на сайт</p>
+                            <input type="text" name="contact_site" required="required" value="" placeholder="www.site.com">
                         </div>
                     </div>
                 </div>
                 <div class="contact-form-item">
                     <div class="contact-form-item-input form_row">
                         <div class="form_input">
-                            <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                            <p>Вывод в топ</p>
+                            <div class="radio-goup cfix">
+                                <div class="con">
+                                    <input type="radio" id="top50" name="go-to-top" value="top50" checked>  
+                                    <label for="top50">                                        
+                                        <span class="svitch"></span>
+                                        <span class="text">Топ-50</span> 
+                                    </label>
+                                </div>
+                                
+                                <div class="con">
+                                    <input type="radio" id="top10" name="go-to-top" value="top10"> 
+                                    <label for="top10">          
+                                        <span class="svitch"></span>
+                                        <span class="text">Топ-10 </span>
+                                    </label>
+                                </div>
+                                
+                                <div class="con">
+                                    <input type="radio" id="marks" name="go-to-top" value="marks"> 
+                                    <label for="marks">                                    
+                                        <span class="svitch"></span>
+                                        <span class="text">Нужны оценки и отзывы</span>
+                                    </label>
+                                </div>
+                                <div class="con">
+                                    <input type="radio" id="to200" name="go-to-top" value="to200"> 
+                                    <label for="to200">                                    
+                                        <span class="svitch"></span>
+                                        <span class="text">До 200 в сутки</span>
+                                    </label>
+                                </div>
+                                <div class="con">
+                                    <input type="radio" id="to500" name="go-to-top" value="to500"> 
+                                    <label for="to500"> 
+                                        <span class="svitch"></span>
+                                        <span class="text">От 200 до 500 в сутки</span>
+                                    </label>
+                                </div>
+                                <div class="con">
+                                    <input type="radio" id="campain" name="go-to-top" value="campain">
+                                    <label for="campain">                     
+                                        <span class="svitch"></span>
+                                        <span class="text">Нужна полноценная кампания</span>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <p>Комментарии</p>
+                            <textarea name="comments" placeholder="Дополнительные комментарии"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <p>Ваш e-mail</p>
+                            <input type="email" name="contact_email" required="required" value="" placeholder="my@e-mail.com">
+                        </div>
+                    </div>
+                </div>
+                <p>Мы составим предварительное предложение и вышлем Вам его на e-mail</p>
             </div>
-            <div class="contact-form-row cfix">
+            <div class="contact-form-row-submit cfix">
                 <div class="contact-form-item">
                     <button type="submit" class="contact-submit">
-                        <span>Отправить заявку</span>
+                        <span>Рассчитать</span>
                     </button>
                 </div>
             </div>
