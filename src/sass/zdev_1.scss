@@ -37,7 +37,7 @@
 
     .block3{
 
-        .inside-wrap{background-image:url(../images/block3-background.png);padding: 63px 0;}
+        .inside-wrap{background-image:url(../images/block3-background.png);padding: 66px 0;}
 
         .block-wrap{
 
@@ -49,8 +49,13 @@
                 .text-with-background{background-image:url(../images/block-text-background-orange.png);width: 531px;height:225px; margin-top: -15px;}
             }
         }
+        .block-wrap .block-text .text-with-background { margin-top: 2px;
+            h2{margin: 0 0 -26px 0;}
+        }
+        .block-wrap .block-text.block-text-right .easy-text { padding-right: 48px; padding-top: 0; padding-left: 0;  line-height: 1.2;}
 
     }
+    .block3 .block-wrap .block-img img { margin-top: -32px; margin-left: 0px;}
 
 /* /block3 */
 
@@ -58,14 +63,14 @@
 
     .block4{position: relative;z-index: 2;
 
-        .inside-wrap{background-image:url(../images/block4-background.jpg);margin: -45px 0;padding: 133px 0;}
+        .inside-wrap{background-image:url(../images/block4-background.jpg);margin: -45px 0;    padding: 132px 0 114px;}
 
         .block-wrap{
 
             .block-img{width: calc(100% - 545px);}
 
             .block-text{
-                .text-with-background{background-image: url(../images/block-text-background-blue.png);width: 475px;height: 219px; margin-top: -25px; margin-left: -20px;
+                .text-with-background{background-image: url(../images/block-text-background-blue.png);width: 475px;height: 219px; margin-top: -37px; margin-left: -6px;
                     h2{font-size: 41px;margin: 0 0 -15px 10px;}
                 }
                 .easy-text{color:#fff;}
@@ -73,5 +78,9 @@
         }
 
     }
+    .block4 .block-wrap .block-img img{padding-top: 25px;}
+    .block4 .block-wrap .block-text .easy-text { padding-left: 58px;line-height: 1.2;}
 
 /* /block4 */
+
+.block5 .block-wrap .block-top .item-1{ margin-top: -51px; margin-left: 53px;}

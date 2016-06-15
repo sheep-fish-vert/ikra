@@ -70,8 +70,8 @@
                     }
                 }
 
-                .item-description{padding-left: 10%;}
-                .item-text{
+                .item-description{padding-left: 13%;}
+                .item-text{ padding-top: 13px;
                     h4,.h4{font-family: 'Intro';font-size: 35px;color: #0da6d8;margin: 0;}
                 }
                 .item-subtext{color: #212121;font-size: 25px;font-weight: 700;line-height: 1.2;
@@ -93,3 +93,5 @@
         }
     }
 }
+
+.block5 .block-wrap .block-bottom .item .item-subtext p {margin-top: 25px;}
