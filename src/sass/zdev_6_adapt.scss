@@ -7,13 +7,149 @@
 @media screen and (max-width: 1366px){
 
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
 	.block2{
-		
+		.mbox{
+			.slider-conteiner{
+				.slick-arrow{width: 111px; min-height: 111px; top: 500px;
+				&:before{content: none;}
+				&.slick-prev{left: 290px; z-index: 50;
+					
+				}
+				&.slick-next{right: 290px; z-index: 50;
+					
+				}
+				img{width: 111px; min-height: 111px;
+					
+				}
+			}
+				.slide{
+				&.slick-current+.slick-active{
+					.wrapper-for-bubble{
+						img{}
+						.inner-image{
+							img{
+								
+							}
+						}
+					}
+					.text-content{
+						.text-heading{
+							h3{}
+						}
+						.main-text{
+							p{}
+						}
+						.price{
+							
+						}
+					}
+				}
+				.wrapper-for-bubble{
+					&.bubble{
+						.inner-image{ 
+						}
+					}
+					.inner-image{
+						img{
+							
+						}
+					}
+				}
+				.text-content{
+					.text-heading{
+						h3{
+							
+						}
+					}
+					.main-text{
+						p{
+							
+						}
+					}
+					.price{
+						p{
+							
+						}
+					}
+				}
+			}
+			}
+		}
 	}
 }
 @media screen and (max-width: 1024px){
-
+	.block2{
+		.mbox{
+			.slider-conteiner{
+				.slick-arrow{
+					&:before{
+					}
+					&.slick-prev{
+						
+					}
+					&.slick-next{
+						
+					}
+					img{
+						
+					}
+				}
+				.slide{
+					&.slick-current+.slick-active{
+						.wrapper-for-bubble{ 
+							img{}
+							.inner-image{
+								img{
+									
+								}
+							}
+						}
+						.text-content{
+							.text-heading{
+								h3{}
+							}
+							.main-text{
+								p{}
+							}
+							.price{
+								
+							}
+						}
+					}
+					.wrapper-for-bubble{max-width: 190px; max-height: 190px;
+					
+						&.bubble{
+							.inner-image{ 
+							}
+						}
+						.inner-image{position: absolute; top: 12px; left: 12px;max-width:247px; max-height: 247px;
+							img{max-width:170px; max-height: 170px;
+								
+							}
+						}
+					}
+					.text-content{
+						.text-heading{
+							h3{
+								
+							}
+						}
+						.main-text{
+							p{
+								
+							}
+						}
+						.price{
+							p{
+								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 @media screen and (max-width: 992px){
 
