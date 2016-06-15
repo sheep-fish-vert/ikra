@@ -5,17 +5,21 @@
 
 }
 @media screen and (max-width: 1366px){
-    .block3 .inside-wrap { padding: 30px 0 68px;}
+    
+    /* block 3 */
+        .block3 .inside-wrap { padding: 30px 0 68px;}
 
-    .block3 {
-        .mbox{max-width: 100%;}
-        .block-wrap{display: block;
-            .block-img{float: right; width: 44%;}
-            .block-text{float: right; padding-top: 135px; width: 56%;}
-            .block-text.block-text-right .easy-text { padding-right: 68px; padding-left: 0; padding-top: 3px; line-height: 1.25;}
+        .block3 {
+            .mbox{max-width: 100%;}
+            .block-wrap{display: block;
+                .block-img{float: right; width: 44%;}
+                .block-text{float: right; padding-top: 135px; width: 56%;}
+                .block-text.block-text-right .easy-text { padding-right: 68px; padding-left: 0; padding-top: 3px; line-height: 1.25;}
+            }
         }
-    }
-    .block3 .block-wrap .block-text .text-with-background { width: 531px; height: 225px; margin-top: -15px; float: right; margin-left: calc(100% + 531px); margin-right: -68px;}
+        .block3 .block-wrap .block-text .text-with-background { width: 531px; height: 225px; margin-top: -15px; float: right; margin-left: calc(100% + 531px); margin-right: -68px;}
+    /* block 3 */
+    
 }
 @media screen and (max-width: 1280px){
 
