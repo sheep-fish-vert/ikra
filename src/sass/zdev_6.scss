@@ -1,7 +1,4 @@
-.block1{min-height: 500px; background: blue;
-}
-
-.block2{background: url('../images/condition-bg.png') no-repeat; background-size: cover; position: 50% 50%;margin-bottom: -35px;
+.block2{background: url('../images/condition-bg.png') no-repeat; background-size: cover; background-position: 50% 50%;margin-bottom: -35px;
 	.mbox{position: relative;
 		.slider-conteiner{position: absolute; top: -300px; left: -30px; max-width: 1080px; min-height: 500px; 
 			.slick-arrow{width: 111px; min-height: 111px; top: 200px;
@@ -9,7 +6,7 @@
 				&.slick-prev{left: -90px; 
 					
 				}
-				&.slick-next{right: -90px; 
+				&.slick-next{right: -75px; 
 					
 				}
 				img{width: 111px; min-height: 111px;
@@ -17,7 +14,7 @@
 				}
 			}
 			.slide{margin: 70px 40px;
-				&.slick-current+.slick-active{
+				&.slick-current+.slick-active{margin-right: 30px;
 					.wrapper-for-bubble{transform: scale(1.5);transition: 0.5s;
 						img{}
 						.inner-image{top: 17px; left: 17px;max-width:240px; max-height: 240px;
