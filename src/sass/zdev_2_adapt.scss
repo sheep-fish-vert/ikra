@@ -20,6 +20,12 @@
 
 }
 @media screen and (max-width: 666px){
+    #call-popup form .contact-form-row .contact-form-item .form_input .radio-goup .con {width: 100%; float: none;}
+
+     #call-popup{width: 280px;
+        form{padding: 0 10px;}
+     }
+     .fancybox-inner {width: 280px !important; min-width: 280px !important;}
 
 }
 @media screen and (max-width: 479px){
