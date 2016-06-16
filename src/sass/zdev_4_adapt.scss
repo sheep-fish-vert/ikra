@@ -15,8 +15,28 @@
 }
 @media screen and (max-width: 992px){
 
+    .block5 .block-wrap .block-top .item.item-1 h2:after { background-size: 100% 100%; width: 507px; height: 196px;}
+
+    .block5 .block-wrap .block-top .item.item-1 { padding-top: 53px;}
+
+    .block5 .block-wrap .block-top { padding-top: 187px;}
+    .block5 .block-wrap .block-top .item.item-1 h2 {font-size: 37px;padding-right: 45px; padding-top: 0;
+        span{font-size: 52px;}
+    }
+    .block5 .block-wrap .block-top .item.item-1 .easy-text { font-size: 18px; padding-right: 51px; padding-top: 63px;}
+
 }
 @media screen and (max-width: 767px){
+    .block5 .block-wrap .block-top .item.item-2 { float: none;width: 86%; margin: 0 auto; text-align: center;}
+    .block5 .block-wrap .block-top .item.item-1 { width: 100%;float: right;}
+
+    .block5 .block-wrap .block-top .item.item-1 h2 {font-size: 29px; padding: 0;
+        span{font-size: 42px;}
+        &:after{ width: 410px; height: 158px;}
+    }
+    .block5 .block-wrap .block-top {padding-top: 120px;}
+    .block5 .block-wrap .block-top .item.item-1 {padding-top: 40px; float: none; max-width: 320px;    margin: 0 auto; }
+    .block5 .block-wrap .block-top .item.item-1 .easy-text { padding-right: 9px; padding-top: 50px;}
 
 }
 @media screen and (max-width: 666px){
