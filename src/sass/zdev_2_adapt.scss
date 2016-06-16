@@ -14,9 +14,20 @@
 
 }
 @media screen and (max-width: 992px){
+    .block1 .conteiner .lang { right: 0px;}
+    .block1 .conteiner .lang{  margin-right: -16px;}
+    .block1 .boxer .after-text { font-size: 42px; padding-top: 27px; padding-bottom: 42px;}
 
 }
 @media screen and (max-width: 767px){
+    .block1 {padding-bottom: 248px;}
+
+    .block1 .conteiner .lang {top: 0; margin-top: -30px; margin-right: -38px;}
+    .block1 .boxer .top a {
+        img{max-width: none;  margin-left: calc(50% - 202px);}
+    }
+    .block1 .boxer .after-text {padding-bottom: 21px;}
+    .block1 .boxer .form{padding: 44px 24px 37px;     border-radius: 0px;}
 
 }
 @media screen and (max-width: 666px){

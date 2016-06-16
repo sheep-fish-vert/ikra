@@ -7,7 +7,7 @@
 @media screen and (max-width: 1366px){
     
     /* block 3 */
-        .block3 .inside-wrap { padding: 30px 0 68px;}
+        .block3 .inside-wrap { padding: 60px 0 68px;}
 
         .block3 {
             .mbox{max-width: 100%;}
@@ -18,7 +18,13 @@
             }
         }
         .block3 .block-wrap .block-text .text-with-background { width: 531px; height: 225px; margin-top: -15px; float: right; margin-left: calc(100% + 531px); margin-right: -68px;}
+        .block3 .block-wrap .block-img { float: right; width: 46%;}
+        .block3 .block-wrap .block-text { width: 54%;}
+        .block3 .block-wrap .block-text .text-with-background { margin-top: -20px;  margin-right: -8px;}
+        .block3 .block-wrap .block-text.block-text-right .easy-text {padding-right: 45px;}
     /* block 3 */
+
+    .block4 .inside-wrap {padding: 132px 0 111px;}
     
 }
 @media screen and (max-width: 1280px){
@@ -28,11 +34,6 @@
 
 }
 @media screen and (max-width: 992px){
-
-    /* skew-block */
-
-
-    /* /skew-block */
 
     /* block 4 */
     
@@ -64,14 +65,23 @@
 
     /* /block3 */
 
+    .block3 .block-wrap .block-text .text-with-background {margin-top: -4px; margin-right: -70px;}
+    .block3 .block-wrap .block-text .text-with-background h2 { margin: 0 0 -26px -54px;}
+    .block3 .inside-wrap {padding: 30px 0 105px; }
+
+    .block4 .block-wrap .block-img img { padding-top: 0px; padding-left: 20px;}
+    .block4 .block-wrap .block-text .text-with-background {margin-top: -3px;margin-left: -24px; height: 205px;}
+    .block4 .block-wrap .block-text .easy-text {padding-left: 63px;}
+    .block4 .inside-wrap { padding: 185px 0 203px;}
+
 }
 @media screen and (max-width: 767px){
 
     /* block 4 */
 
-        .block4 .inside-wrap {padding: 115px 0 155px;}
+        .block4 .inside-wrap {padding: 115px 0 147px;}
 
-        .block4 .block-wrap .block-text .text-with-background { background-size: 100% 100%; width: 355px; height: 160px; margin-left: -57px; margin-top: -75px;} 
+        .block4 .block-wrap .block-text .text-with-background { background-size: 100% 100%; width: 355px; height: 160px; margin-left: -57px;     margin-top: -54px;} 
 
         .block4 .block-wrap{display: block;
             .block-img{width: 220px; margin: 0 auto;}
@@ -83,16 +93,17 @@
             br{display: none;}
         }
 
-        .block4 .block-wrap .block-text .easy-text{padding-top: 26px;}
+        .block4 .block-wrap .block-text .easy-text { padding-left: 3px; padding-top: 22px;}
+
 
     /* block 4 */
 
     /* block 3 */
-        .block3 .inside-wrap {padding: 30px 0 130px;}
+        .block3 .inside-wrap {padding: 30px 0 127px;}
         .block3 .block-wrap {
             .block-img { width: 80%; float: none; margin: 0 auto;  text-align: center;}
             .block-text {  width: 100%; float: none; margin-top: -125px; position: relative; padding: 0;
-                .text-with-background { width: 392px; height: 161px;float: none; margin: 0 auto;}
+                .text-with-background { width: 392px; height: 161px;float: none; margin: 0 auto; }
             }
         }
 
