@@ -2,7 +2,7 @@ function InitSlider(){
 	$('.slider-conteiner').slick({
   infinite: true,
   slidesToShow: 3,
-  slidesToScroll: 1,
+  swipeToSlide: true,
   dots: false,
   arrows: true,
   prevArrow: '<button type="button" class="slick-prev"><img src="images/slider-arrow-prev.png"></button>',
@@ -12,7 +12,6 @@ function InitSlider(){
 	      breakpoint: 767,
 	      settings: {
 	        slidesToShow: 1,
-	        slidesToScroll: 1,
 	        infinite: true,
 	        dots: true
 	      }
