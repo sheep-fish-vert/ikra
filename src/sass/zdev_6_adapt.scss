@@ -225,16 +225,16 @@
 				}
 			}
 			.condition{padding: 720px 0 110px 0;
-				.cake-image{ top: 485px; left: 50%; margin-left: -100px;max-width: 202px ; max-height:265px;
+				.cake-image{ top: 485px; left: 50%; margin-left: -100px;max-width: 202px ; max-height:265px; z-index:0; 
 					
 					&:hover{
 						img{
-							&:first-child{ min-width: 354px; min-height: 350px; left: -60px; top:-30px; }	
+							&:first-child{ display: none; }	
 						}
 					}
 					img{
 						&:first-child{display: none; }
-						&:last-child{z-index: 5; position: relative;}
+						&:last-child{z-index: 0; position: relative;}
 						
 					}
 				}
