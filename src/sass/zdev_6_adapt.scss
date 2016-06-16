@@ -10,13 +10,13 @@
 @media screen and (max-width: 1279px){
 	.block2{
 		.mbox{
-			.slider-conteiner{
+			.slider-conteiner{max-width: 1024px;
 				.slick-arrow{width: 111px; min-height: 111px; top: 500px;
 					&:before{content: none;}
-					&.slick-prev{left: 23%; z-index: 50;
+					&.slick-prev{left: 25%; z-index: 50;
 						
 					}
-					&.slick-next{right: 23%; z-index: 50;
+					&.slick-next{right: 25%; z-index: 50;
 						
 					}
 					img{width: 111px; min-height: 111px;
@@ -81,8 +81,8 @@
 @media screen and (max-width: 1024px){
 	.block2{
 		.mbox{
-			.slider-conteiner{max-width: 740px; top: -290px; left: 50%; margin-left: -370px;
-				.slick-arrow{width: 95px; min-height: 95px; top: 480px;
+			.slider-conteiner{max-width: 740px; top: -255px; left: 50%; margin-left: -370px;
+				.slick-arrow{width: 95px; min-height: 95px; top: 470px;
 					&:before{}
 					&.slick-prev{ left: 26%;
 						
@@ -94,17 +94,17 @@
 						
 					}
 				}
-				.slide{margin: 70px 30px;
+				.slide{margin: 65px 30px 75px;
 					&.slick-current{
 						.wrapper-for-bubble{
 							
 						}
 					}
 					&.slick-current+.slick-active{
-						.wrapper-for-bubble{ transform: scale(1.44);
+						.wrapper-for-bubble{ transform: scale(1.44);position:relative; top: 0;
 							img{}
-							.inner-image{top: 10px; left: 10px;max-width:170px; max-height: 170px;
-								img{max-width:170px; max-height: 170px;
+							.inner-image{top: 13px; left: 13px;max-width:165px; max-height: 165px;
+								img{max-width:165px; max-height: 165px;
 									
 								}
 							}
@@ -118,6 +118,7 @@
 					.wrapper-for-bubble{max-width: 190px; max-height: 190px; min-width: 190px; min-height: 190px;
 						
 						img{max-width: 190px; max-height: 190px; }
+						&.bubble2{ position:relative; top: -10px; }
 						&.bubble{position:relative; top: -10px; 
 							.inner-image{ top: 12px; left: 10px;
 								img{max-width:168px; max-height: 168px;}
@@ -134,8 +135,8 @@
 					}
 				}
 			}
-			.condition{padding: 530px 0 225px 0;
-				.cake-image{ top: 480px; left: 45px;max-width: 290px ; max-height:403px;
+			.condition{padding: 560px 0 220px 0;
+				.cake-image{ top: 510px; left: 45px;max-width: 290px ; max-height:403px;
 					
 					&:hover{
 						img{
@@ -148,8 +149,8 @@
 						
 					}
 				}
-				.condition-content{padding: 60px 10px 0 0;
-					img{ max-width:429px; max-height: 146px; right: -10px; top: 70px;}
+				.condition-content{padding: 60px 30px 0 0;
+					img{ max-width:429px; max-height: 146px; right: 0px; top: 20px;}
 					.cake-heading{max-width: 340px; 
 						h2{font-family: 'Intro'; font-size:27px; white-space: pre-line; margin: 0px; line-height: 0.8;
 							span{font-size: 55px
@@ -168,13 +169,180 @@
 
 }
 @media screen and (max-width: 767px){
+	.block2{background-position: 50%; 
+		.mbox{
+			.slider-conteiner{max-width: 281px; top: -220px; left: 50%; margin-left: -140px;
+				.slick-arrow{width: 75px; min-height: 75px; top: 500px;
+					&.slick-prev{ left: 17%;
+						
+					}
+					&.slick-next{ right: 17%;
+						
+					}
+					img{width: 75px; min-height: 75px;
+						
+					}
+				}
+				.slide{margin: 65px 30px 75px;
+					&.slick-current{
+						.wrapper-for-bubble{
+							
+						}
+					}
+					&.slick-current{
+						.wrapper-for-bubble{ transform: scale(1.44);position:relative; top: 0; margin: 0 auto;
+							img{}
+							.inner-image{top: 13px; left: 13px;max-width:165px; max-height: 165px;
+								img{max-width:165px; max-height: 165px;
+									
+								}
+							}
+						}
+						.text-content{padding: 40px 0 0 15px;
+							.text-heading{margin-top :-15px;
+							}
+						}
+						
+					}
+					.wrapper-for-bubble{max-width: 190px; max-height: 190px; min-width: 190px; min-height: 190px;
+						
+						img{max-width: 190px; max-height: 190px; }
+						&.bubble2{ position:relative; top: -10px; }
+						&.bubble{position:relative; top: -10px; 
+							.inner-image{ top: 12px; left: 10px;
+								img{max-width:168px; max-height: 168px;}
+							}
+						}
+						.inner-image{position: absolute; top: 10px; left: 10px;max-width:247px; max-height: 247px;
+							img{max-width:170px; max-height: 170px;
+							}
+						}
+					}
+					.text-content{padding: 0 5px; margin-top: -15px;
+						.main-text{ padding: 0 5px;
+						}
+					}
+				}
+			}
+			.condition{padding: 720px 0 110px 0;
+				.cake-image{ top: 485px; left: 50%; margin-left: -100px;max-width: 202px ; max-height:265px;
+					
+					&:hover{
+						img{
+							&:first-child{ min-width: 354px; min-height: 350px; left: -60px; top:-30px; }	
+						}
+					}
+					img{
+						&:first-child{display: none; }
+						&:last-child{z-index: 5; position: relative;}
+						
+					}
+				}
+				.condition-content{padding: 0px 0px 0 0; align-items: center; 
+					img{ max-width:429px; max-height: 146px; right: 50%; top: -50px; margin-right: -190px; z-index: 6;}
+					.cake-heading{max-width: 280px; position: relative; z-index: 7;
+						h2{font-family: 'Intro'; font-size:22px; white-space: pre-line; margin: 0px; line-height: 0.8;
+							span{font-size: 45px
+							} 
+						}
+					}
+					.condition-text{ text-align: center;position: relative; z-index: 7;
+						p{ margin: 65px 20px 0 0; line-height: 1.3;}
+					}
+				}
+			}
+		}
+	}
 
 }
 @media screen and (max-width: 666px){
 
 }
 @media screen and (max-width: 479px){
-
+	.block2{background-position: 50% ; background-size: 600%;
+		.mbox{
+			.slider-conteiner{max-width: 281px; top: -220px; left: 50%; margin-left: -140px;
+				.slick-arrow{width: 75px; min-height: 75px; top: 500px;
+					&.slick-prev{ left: 17%;
+						
+					}
+					&.slick-next{ right: 17%;
+						
+					}
+					img{width: 75px; min-height: 75px;
+						
+					}
+				}
+				.slide{margin: 65px 30px 75px;
+					&.slick-current{
+						.wrapper-for-bubble{
+							
+						}
+					}
+					&.slick-current{
+						.wrapper-for-bubble{ transform: scale(1.44);position:relative; top: 0; margin: 0 auto;
+							img{}
+							.inner-image{top: 13px; left: 13px;max-width:165px; max-height: 165px;
+								img{max-width:165px; max-height: 165px;
+									
+								}
+							}
+						}
+						.text-content{padding: 40px 0 0 15px;
+							.text-heading{margin-top :-15px;
+							}
+						}
+						
+					}
+					.wrapper-for-bubble{max-width: 190px; max-height: 190px; min-width: 190px; min-height: 190px;
+						
+						img{max-width: 190px; max-height: 190px; }
+						&.bubble2{ position:relative; top: -10px; }
+						&.bubble{position:relative; top: -10px; 
+							.inner-image{ top: 12px; left: 10px;
+								img{max-width:168px; max-height: 168px;}
+							}
+						}
+						.inner-image{position: absolute; top: 10px; left: 10px;max-width:247px; max-height: 247px;
+							img{max-width:170px; max-height: 170px;
+							}
+						}
+					}
+					.text-content{padding: 0 5px; margin-top: -15px;
+						.main-text{ padding: 0 5px;
+						}
+					}
+				}
+			}
+			.condition{padding: 740px 0 130px 0;
+				.cake-image{ top: 485px; left: 50%; margin-left: -100px;max-width: 202px ; max-height:265px;
+					
+					&:hover{
+						img{
+							&:first-child{ min-width: 354px; min-height: 350px; left: -60px; top:-30px; }	
+						}
+					}
+					img{
+						&:first-child{display: none; }
+						&:last-child{z-index: 5; position: relative;}
+						
+					}
+				}
+				.condition-content{padding: 0 0 0 0; align-items: center; 
+					img{ max-width:429px; max-height: 146px; right: 50%; top: -50px; margin-right: -190px; z-index: 6;}
+					.cake-heading{max-width: 280px; position: relative; z-index: 7;
+						h2{font-family: 'Intro'; font-size:22px; white-space: pre-line; margin: 0px; line-height: 0.8;
+							span{font-size: 45px
+							} 
+						}
+					}
+					.condition-text{ text-align: center;position: relative; z-index: 7;
+						p{ margin: 65px 20px 0 0; line-height: 1.3;}
+					}
+				}
+			}
+		}
+	}
 }
 @media screen and (max-width: 320px){
 

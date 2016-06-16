@@ -6,8 +6,20 @@ function InitSlider(){
   dots: false,
   arrows: true,
   prevArrow: '<button type="button" class="slick-prev"><img src="images/slider-arrow-prev.png"></button>',
-  nextArrow: '<button type="button" class="slick-next"><img src="images/slider-arrow.png"></button>'
+  nextArrow: '<button type="button" class="slick-next"><img src="images/slider-arrow.png"></button>',
+  responsive: [
+	    {
+	      breakpoint: 767,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true,
+	        dots: true
+	      }
+	    }
+	 ]
 	});
+
 };
 
 
