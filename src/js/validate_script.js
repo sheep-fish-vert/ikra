@@ -100,6 +100,8 @@ function validationCall(form){
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
+    console.log(formSur);
+
     $.ajax({
         url : thisForm.attr('action'),
         data: formSur,
@@ -107,7 +109,7 @@ function validationCall(form){
         success : function(data){
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
-                popNext("#call_success", "call-popup");
+              //  popNext("#call_success", "call-popup");
             }
             else {
                thisForm.trigger('reset');
