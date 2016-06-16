@@ -60,7 +60,7 @@
 			}
 		}
 		.condition{padding: 485px 0 185px 0; position: relative;
-			.cake-image{position: absolute; overflow: visible; top: 450px; left: 70px;z-index: 1;
+			.cake-image{position: absolute; overflow: visible; top: 450px; left: 70px;z-index: 10;
 				&:hover{
 					img{
 						&:first-child{display: block; position: absolute; z-index: 1; min-width: 594px;
