@@ -259,7 +259,7 @@
 
 }
 @media screen and (max-width: 479px){
-	.block2{
+	.block2{overflow: hidden;
 		.mbox{
 			.slider-conteiner{max-width: 281px; top: -220px; left: 50%; margin-left: -140px;
 				.slick-arrow{width: 75px; min-height: 75px; top: 500px;
@@ -329,7 +329,7 @@
 					}
 				}
 				.condition-content{padding: 0 0 0 0; align-items: center; 
-					img{ max-width:429px; max-height: 146px; right: 50%; top: -50px; margin-right: -190px; z-index: 6;}
+					img{ max-width:420px; max-height: 146px; right: 50%; top: -50px; margin-right: -180px; z-index: 6;}
 					.cake-heading{max-width: 280px; position: relative; z-index: 7;
 						h2{font-family: 'Intro'; font-size:22px; white-space: pre-line; margin: 0px; line-height: 0.8;
 							span{font-size: 45px
