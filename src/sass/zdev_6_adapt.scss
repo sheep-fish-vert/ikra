@@ -259,7 +259,7 @@
 
 }
 @media screen and (max-width: 479px){
-	.block2{background-position: 50% ; background-size: 600%;
+	.block2{
 		.mbox{
 			.slider-conteiner{max-width: 281px; top: -220px; left: 50%; margin-left: -140px;
 				.slick-arrow{width: 75px; min-height: 75px; top: 500px;
@@ -314,7 +314,7 @@
 					}
 				}
 			}
-			.condition{padding: 740px 0 130px 0;
+			.condition{padding: 745px 0 105px 0;
 				.cake-image{ top: 485px; left: 50%; margin-left: -100px;max-width: 202px ; max-height:265px;
 					
 					&:hover{
