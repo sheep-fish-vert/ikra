@@ -11,6 +11,9 @@ $(window).load(function(){
 
 });
 
-$(window).resize(function(){ 
+$(window).resize(function(){
+
+
+
 
 });
