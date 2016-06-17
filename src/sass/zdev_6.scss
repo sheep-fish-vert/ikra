@@ -90,3 +90,34 @@
 
 	}
 }
+
+.competition-block1{background-color: #f2f2f2;
+	.mbox2{font-family: 'CoreSansNR';
+		.heading-wrapper{text-align: center; padding: 50px 0 0 0 ;
+			.main-part{padding-bottom:25px;
+				h2{font-family: 'CoreSansNR'; font-size: 45px;margin: 0; font-weight: 300; letter-spacing: -0.3px;}
+			}
+			.lower-part{ max-width: 500px;margin: 0 auto;
+				p{color: #616161; font-size: 16px;font-family: 'CoreSansNR';margin: 0; font-weight: 300;  }
+			}
+		}	
+		.block-1-slider-wrapper{padding: 0 100px;
+			.slide{
+				.image-wrapper{text-align: center;
+					img{display: inline-block;}
+				}
+				.text-wrapper{text-align: center;
+					.slider-heading{
+						h3{font-family: 'CoreSansNR'; font-size:20px;margin: 0;}
+					}
+					.slider-text{max-width: 180px; margin: 0 auto;
+						p{color:#616161;font-family: 'CoreSansNR'; font-size: 14px;margin: 0;}
+					}
+					.price{
+						p{color: #00a1d6;font-family: 'Intro'; font-size: 34px;margin: 0;}
+					}
+				}	
+			}
+		}
+	}
+}
