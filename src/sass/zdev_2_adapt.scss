@@ -7,8 +7,8 @@
 @media screen and (max-width: 1366px){
 
 }
-@media screen and (max-width: 1280px){
-
+@media screen and (max-width: 1130px){
+    .mbox2{max-width: 768px; margin: 0 auto;}
 }
 @media screen and (max-width: 1024px){
 
@@ -20,14 +20,22 @@
 
 }
 @media screen and (max-width: 767px){
-    .block1 {padding-bottom: 248px;}
 
-    .block1 .conteiner .lang {top: 0; margin-top: -30px; margin-right: -38px;}
-    .block1 .boxer .top a {
-        img{max-width: none;  margin-left: calc(50% - 202px);}
-    }
-    .block1 .boxer .after-text {padding-bottom: 21px;}
-    .block1 .boxer .form{padding: 44px 24px 37px;     border-radius: 0px;}
+    .mbox2{max-width: 320px; margin: 0 auto;}
+
+    /* block 1 */
+        .block1 {padding-bottom: 248px;}
+
+        .block1 .conteiner .lang {top: 0; margin-top: -30px; margin-right: -38px;}
+        .block1 .boxer .top a {
+            img{max-width: none;  margin-left: calc(50% - 202px);}
+        }
+        .block1 .boxer .after-text {padding-bottom: 21px;}
+        .block1 .boxer .form{padding: 44px 24px 37px;     border-radius: 0px;}
+
+    /* block 1 */
+
+    
 
 }
 @media screen and (max-width: 666px){
