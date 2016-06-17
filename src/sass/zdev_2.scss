@@ -157,8 +157,57 @@
 
     .competition-block3{
         .contein{background-color: #f2f2f2;
-            .title-text{text-align: center;
-                h2{ margin: 0 auto; font-size: 45px; font-family: "CoreSansNR";  color: rgb(0, 0, 0); line-height: 1.2;}
+            .title-text{text-align: center;    padding-top: 64px; padding-bottom: 37px;
+                h2{ margin: 0 auto; font-size: 45px; font-family: "CoreSansNR";  color: rgb(0, 0, 0); line-height: 1.2; font-weight: 200;}
+            }
+            .after-lists{ padding: 0 86px; display: flex; align-items: flex-start; justify-content: space-between;
+                .list-travell.list-order{ 
+                    ul{margin-right: 0;}
+                }
+                .list-note-book.list-order{ 
+                    ul{margin-right: 0;}
+                }
+                .list-order{float: left; width: 180px;}
+                .list-tshirt { width: 435px;
+                    ul{max-width: 410px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; 
+                        li{width: 33%;}
+                    }
+                }
+
+                .head{ position: relative; padding: 17px 0;
+                    .con{position: absolute; top: 6px; left: 13px;}
+                    p{font-size: 16px; font-family: "CoreSansNR"; color: rgb(97, 97, 97);  line-height: 1.2; margin: 0; padding-left: 118px;}
+                }
+                ul{ position: relative; z-index: 2; background-color: white; padding: 22px 24px 18px; list-style: none; max-width: 150px; margin: 0; margin-left: 20px; cursor: pointer;
+                    li{width: 100%; position: relative; max-width: 94px; padding-bottom: 5px;
+                        .list-num{display: block; width: 38px; height: 25px; text-align: center; line-height: 25px; font-size: 18px; font-family: "CoreSansNR"; color: rgb(0, 0, 0); background-color: #ececec;}
+                        .name{position: absolute; left: 48px; top: 0px; bottom: 5px; line-height: 25px; max-width: calc(100% - 40px);overflow: hidden; font-size: 18px; font-family: "CoreSansNR"; color: rgb(0, 0, 0); transition: all 0.3s;
+                            &:before{content: ''; position: absolute; left: 0; top: 0; bottom: 0; right: 0; box-shadow: inset -32px 0px 32px -8px white; pointer-events: none; transition: box-shadow 0.3s;}
+                            
+                        }
+                        &:hover{z-index: 5; 
+                            .name{ overflow: visible;background-color: white;max-width:none; z-index: 1; padding-right: 5px;
+                                &:before{box-shadow: inset 0px 0px 0px 0px white;z-index: 0;}
+                            }
+                        }
+                    }
+                }
+                .list-note-book .head {
+                    .con {  top: 11px; left: -14px;}
+                    p{padding-left: 89px;}
+                }
+                .list-travell .head {
+                    .con {  top: 11px; left: -14px;}
+                    p{padding-left: 82px;}
+                }
+    
+            }
+            .button-row{ padding-top: 53px;padding-bottom: 46px;
+                .super-butt{display: flex; max-width: 303px; height: 69px; text-align: center; justify-content: center; align-items: center; margin: 0 auto; text-decoration: none; background-color: #00a1d6; transition: all 0.3s; border-radius: 8px; box-shadow: 0px 8px 7px 0px rgba(1, 1, 1, 0.21);
+                    &:hover{    background-color: #2ab9e8;}
+                    span{color: white;  font-size: 25px; font-family: "Intro"; margin-bottom: -5px;}
+                }
+                p{text-align: center; margin: 0; padding-top: 17px; }
             }
         }
     }
@@ -167,3 +216,5 @@
 
 .bdy-wrapper{overflow: hidden;}
 .footer {position: relative;}
+body{zoom:  100% !important;}
+
