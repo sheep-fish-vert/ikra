@@ -114,7 +114,9 @@
 
 .mbox2{max-width: 1130px; margin: 0 auto;}
 
-.page-inside{background-image: url(../images/bg-inside.jpg); background-repeat: no-repeat; background-position: top center; background-color: #ea6604;}
+.page-inside{background-image: url(../images/bg-inside.jpg); background-repeat: no-repeat; background-position: top center; background-color: #ea6604;
+    .main{position: relative; z-index: 2;}
+}
 
 
 /* inside-header */
