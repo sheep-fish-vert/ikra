@@ -114,7 +114,7 @@
 
 .mbox2{max-width: 1130px; margin: 0 auto;}
 
-.page-inside{background-image: url(../images/bg-inside.jpg); background-repeat: no-repeat; background-position: top center; background-color: #ea6604;
+.page-inside{background-image: url(../images/bg-inside.jpg); background-repeat: no-repeat; background-position: top center; background-color: #ea6604; background-size: 100%;
     .main{position: relative; z-index: 2;}
 }
 
@@ -156,7 +156,11 @@
 /* block 3 */
 
     .competition-block3{
-        .contein{background-color: #f2f2f2;
+        .mbox2{position: relative;
+            &:before{ content: '';display: block; width: 90%; left: 5%; right: 5%; height: 1px; background-color: transparent; bottom: 0; box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.75); z-index: 1; position: absolute;}
+            &:after{ content: '';display: block; width: 90%; left: 5%; right: 5%; height: 1px; background-color: transparent;  top: -15px; box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.75); z-index: 3; position: absolute;}
+        }
+        .contein{background-color: #f2f2f2;position: relative; z-index: 2;
             .title-text{text-align: center;    padding-top: 64px; padding-bottom: 37px;
                 h2{ margin: 0 auto; font-size: 45px; font-family: "CoreSansNR";  color: rgb(0, 0, 0); line-height: 1.2; font-weight: 200;}
             }
@@ -202,12 +206,12 @@
                 }
     
             }
-            .button-row{ padding-top: 53px;padding-bottom: 46px;
+            .button-row{ padding-top: 50px;padding-bottom: 43px;
                 .super-butt{display: flex; max-width: 303px; height: 69px; text-align: center; justify-content: center; align-items: center; margin: 0 auto; text-decoration: none; background-color: #00a1d6; transition: all 0.3s; border-radius: 8px; box-shadow: 0px 8px 7px 0px rgba(1, 1, 1, 0.21);
                     &:hover{    background-color: #2ab9e8;}
                     span{color: white;  font-size: 25px; font-family: "Intro"; margin-bottom: -5px;}
                 }
-                p{text-align: center; margin: 0; padding-top: 17px; }
+                p{text-align: center; margin: 0; padding-top: 12px; font-size: 16px; font-family: "CoreSansNR"; color: rgb(97, 97, 97); line-height: 1.2; }
             }
         }
     }
@@ -216,5 +220,38 @@
 
 .bdy-wrapper{overflow: hidden;}
 .footer {position: relative;}
-body{zoom:  100% !important;}
 
+/* block 2 */ 
+
+    .competition-block2{position: relative; z-index: 5;  
+        .title-text{text-align: center;    padding-top: 52px; padding-bottom: 29px;
+            h2{ margin: 0 auto; font-size: 45px; font-family: "CoreSansNR";  color: rgb(0, 0, 0); line-height: 1.2; font-weight: 200;}
+        }
+        .convert{background-color: #fafafa; position: relative; z-index: 2; padding-bottom: 61px;
+            .conve{ padding: 0 86px;
+                .item{width: calc(100%/3); float: left; position: relative;
+                    .cik{width: 203px; height: 203px; background-color: #ebebeb; border-radius: 50%; display: flex; align-items: center; justify-content: center;  margin-left: 66px;
+                        p{ font-size: 20px; font-family: "CoreSansNR"; color: rgb(0, 0, 0); line-height: 1.2; margin: 0;  font-weight: 300;     padding-left: 40px;
+                            span{  font-size: 33px; color: rgb(0, 161, 214);line-height: 1.2; font-weight: 900;}
+                        }
+                        b{font-size: 47px; font-family: "CoreSansNR"; color: rgb(0, 161, 214);   line-height: 1.2; font-weight: 900;  padding-left: 30px;}
+                        .der{
+                            span{ font-size: 20px; font-family: "CoreSansNR"; color: rgb(0, 0, 0);  line-height: 0.9; font-weight: 300;}
+                        }
+                    }
+                    .con{position: absolute; top: 48px; left: 25px;}
+                }
+                .item2{
+                    .cik{ margin-left: 84px; }
+                    .con { top: 64px;}
+                }
+                .item3{
+                    .cik{ margin-left: 84px; }
+                    .con{ left: 34px; top: 43px;}
+                }
+            }
+        }
+    }
+
+
+/* block 2 */
