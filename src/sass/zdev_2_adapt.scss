@@ -1,12 +1,13 @@
 @media screen and (max-width: 1920px){
-
+    body{ zoom: 100%; }
 }
-@media screen and (max-width: 1600px){
-
+@media screen and (max-width: 1700px){
+     body{ zoom: 75%; }
 }
-@media screen and (max-width: 1366px){
-
+@media screen and (max-width: 1300px){
+    body{ zoom: 100%; }
 }
+
 @media screen and (max-width: 1130px){
     .mbox2{max-width: 768px; margin: 0 auto;}
 }
