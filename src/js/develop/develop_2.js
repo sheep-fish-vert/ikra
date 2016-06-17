@@ -3,11 +3,34 @@
 
 
 $(document).ready(function(){
-    AOS.init({
-        offset: 200,
-    });
+   // AOS.init({});
 
-    console.log('gogogo');
+    var s = $(window).width();
+    var w = $(window).height();
+    if (s > 1300){
+            $('.global-wrapper').attr("style", "transform: scale(" + 1 + "); width:1920px;");
+
+    
+        $('.global-wrapper').attr("style", "transform: scale(" + s/1920 + ")  ;width:1920px;");
+
+        var t = $('.block1').offset().left;
+        var p = $('.block1').offset().top;
+
+
+        setTimeout(function(){ 
+            $('.global-wrapper').attr("style", "transform: scale(" + 1 + "); width:1920px;"); 
+            $('.global-wrapper').attr("style", "transform: scale(" + s/1920 + "); margin-left:" + (0 - t) + "px; margin-top:" + (0 - p) + "px; width:1920px; ");
+
+            $('.bdy-wrapper').height($('.global-wrapper').height() * s/1920 );
+        }, 100); 
+    } else {
+        $('.global-wrapper').attr("style", "transform: scale(" + 1 + "); margin-left:" + (0) + "px; margin-top:" + (0) + "px; width:auto; ");
+
+        $('.bdy-wrapper').height($('.global-wrapper').height() );
+    }
+
+    
+
 });
 
 $(window).load(function(){
@@ -15,5 +38,33 @@ $(window).load(function(){
 });
 
 $(window).resize(function(){
+
+
+    var s = $(window).width();
+    var w = $(window).height();
+    if (s > 1300){
+            $('.global-wrapper').attr("style", "transform: scale(" + 1 + "); width:1920px;");
+
+    
+        $('.global-wrapper').attr("style", "transform: scale(" + s/1920 + ")  ;width:1920px;");
+
+        var t = $('.block1').offset().left;
+        var p = $('.block1').offset().top;
+
+        console.log(t);
+
+        setTimeout(function(){ 
+            $('.global-wrapper').attr("style", "transform: scale(" + 1 + "); width:1920px;"); 
+            $('.global-wrapper').attr("style", "transform: scale(" + s/1920 + "); margin-left:" + (0 - t) + "px; margin-top:" + (0 - p) + "px; width:1920px; ");
+
+            $('.bdy-wrapper').height($('.global-wrapper').height() * s/1920 );
+        }, 100); 
+    } else {
+        $('.global-wrapper').attr("style", "transform: scale(" + 1 + "); margin-left:" + (0) + "px; margin-top:" + (0) + "px; width:auto; ");
+
+        $('.bdy-wrapper').height($('.global-wrapper').height() );
+    }
+
+ 
 
 });
