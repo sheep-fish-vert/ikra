@@ -40,6 +40,25 @@ function InitSlider_1(){
 	 	    }
 	 	]
   	});
+  	$('.block-4-slider-wrapper').slick({
+	   infinite: true,
+	   slidesToShow: 2,
+	   swipeToSlide: true,
+	   dots: false,
+	   arrows: true,
+	   prevArrow: '<button type="button" class="slick-prev"><img src="images/competition4-slider-left-arrow.png"></button>',
+	   nextArrow: '<button type="button" class="slick-next"><img src="images/competition4-slider-right-arrow.png"></button>',
+	    responsive: [
+	 	    {
+	 	      breakpoint: 767,
+	 	      settings: {
+	 	        slidesToShow: 1,
+	 	        infinite: true,
+	 	        dots: true
+	 	      }
+	 	    }
+	 	]
+  	});
 };
 
 

@@ -91,8 +91,8 @@
 	}
 }
 
-.competition-block1{background-color: #f2f2f2;
-	.mbox2{font-family: 'CoreSansNR';
+.competition-block1{
+	.mbox2{font-family: 'CoreSansNR';background-color: #f2f2f2;
 		.heading-wrapper{text-align: center; padding: 50px 0 50px  0 ;
 			.main-part{padding-bottom:25px;
 				h2{font-family: 'CoreSansNR'; font-size: 45px;margin: 0; font-weight: 300; letter-spacing: -0.3px;}
@@ -101,18 +101,18 @@
 				p{color: #616161; font-size: 16px;font-family: 'CoreSansNR';margin: 0; font-weight: 300;  }
 			}
 		}	
-		.block-1-slider-wrapper{padding: 0 65px; max-width: 960px; width: 100%; margin: 0 auto;
+		.block-1-slider-wrapper{padding: 0 65px 35px; max-width: 960px; width: 100%; margin: 0 auto;
 			.slick-arrow{
-					&.before{content: none;}
-					img{min-height: 47px; min-width: 47px;
-					}
-					&.slick-prev{top: 0;
-						
-					}
-					&.slick-next{top: 0;
-						
-					}
+				&:before{content: none;}
+				img{min-height: 47px; min-width: 47px;
 				}
+				&.slick-prev{top: 65px; left: 10px;
+					
+				}
+				&.slick-next{top: 65px; right: 20px;
+					
+				}
+			}
 			.slide{
 
 				.image-wrapper{text-align: center;
@@ -129,6 +129,44 @@
 						p{color: #00a1d6;font-family: 'Intro'; font-size: 34px;margin: 0;}
 					}
 				}	
+			}
+		}
+	}
+}
+
+.competition-block4{padding-bottom: 85px;
+	.mbox2{font-family: 'CoreSansNR';
+		.block4-heading{width: 100%; text-align: center; padding: 40px 0 45px 0;
+			h2{font-size: 45px; color: #fff; margin: 0; font-weight: 300; 
+				
+			}
+		}
+		.block-4-slider-wrapper{max-width: 1110px; padding: 0 20px; margin: 0 0 0 auto ;
+			.slick-arrow{
+				&:before{content: none;}
+				img{min-height: 40px; min-width: 21px;
+				}
+				&.slick-prev{top: 105px; left: -25px;
+					
+				}
+				&.slick-next{top: 105px; right: -14px;
+					
+				}
+			}
+			.slide{padding: 57px 0 55px; display: flex; max-height: 250px; width: 520px; background-color: #fff;margin: 0 15px 0 0;
+				.image-wrapper{padding: 0 40px 0 60px;
+					img{}
+				}
+				.text-conteiner{padding: 0 40px 0 40px; border-left: 1px solid #616161;
+					.text-heading{max-width: 190px;margin: 0 auto;
+						h3{color: #00a1d6;font-family: 'Intro'; font-size: 20px;margin: 0; line-height: 1.3;
+							
+						}
+					}
+					.text-content{max-width: 200px; margin: 0 auto; overflow: hidden; max-height: 95px;
+						p{color: #616161;font-family: 'CoreSansNR'; font-size: 15.5px;margin: 10px 0 0 0 ; font-weight: 300; line-height: 1.3}
+					}
+				}
 			}
 		}
 	}
