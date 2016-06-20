@@ -31,7 +31,15 @@ function InitSlider_1(){
 	   nextArrow: '<button type="button" class="slick-next"></button>',
 	    responsive: [
 	 	    {
-	 	      breakpoint: 767,
+	 	      breakpoint: 1130,
+	 	      settings: {
+	 	        slidesToShow: 3,
+	 	        infinite: true,
+	 	        dots: true
+	 	      }
+	 	    },
+	 	    {
+	 	      breakpoint: 768,
 	 	      settings: {
 	 	        slidesToShow: 1,
 	 	        infinite: true,
@@ -50,7 +58,7 @@ function InitSlider_1(){
 	   nextArrow: '<button type="button" class="slick-next"><img src="images/competition4-slider-right-arrow.png"></button>',
 	    responsive: [
 	 	    {
-	 	      breakpoint: 767,
+	 	      breakpoint: 1130,
 	 	      settings: {
 	 	        slidesToShow: 1,
 	 	        infinite: true,

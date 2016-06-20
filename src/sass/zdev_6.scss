@@ -180,38 +180,51 @@
 			#call-popup2{ min-height: 810px;
 				.main-wrapper{ text-align: center; position: relative;
 					.seljodka{position: absolute; bottom:-52px; left: 0;}
+					.little-seljodka{display: none;}
 					.popup-main-heading{color:  #00a1d6; position: relative; z-index: 2;
 						.top-part{width: 100%; padding: 55px 0 0 0;
 							h2{font-family: 'Intro'; font-size: 52px; margin: 0; text-transform: uppercase; }
 						}
 						.lower-part{
-							h3{font-family: 'Intro'; font-size: 25px; margin: 0;}
+							h3{font-family: 'Intro'; font-size: 25px; margin: 0 0 0 10px;}
 						}
 					}
 					.text-wrapper{ max-width: 500px; margin: 0 auto 30px ;
 						
-						p{font-family: 'CoreSansNR'; text-size: 20px; }
+						p{font-family: 'CoreSansNR'; font-size: 20px;  }
 					}
 					.popup-line{position: absolute;}
 					.block-for-line1{  min-height: 1px; min-width: 230px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 90px;}
-					.number-one{font-family: 'CoreSansNR'; font-size: 20px; color:  #00a1d6; border-radius: 50%; padding: 20px 0; background-color: #f3f3f3; width: 60px; margin: 60px auto -10px;z-index: 1;
+					.number-one{display: block;font-family: 'CoreSansNR'; font-size: 20px; color:  #00a1d6; border-radius: 50%; padding: 20px 33px 20px 27px; background-color: #f3f3f3; width: 60px; margin: 50px auto -20px;z-index: 3; position: relative; border: 10px solid rgba(255, 255, 255, 1); left: 10px; top: 5px;
 						
 					}
-					.number-two{font-family: 'CoreSansNR'; font-size: 20px; color:  #00a1d6;border-radius: 50%; padding: 20px 0; background-color: #f3f3f3; width: 60px; margin: 40px auto -10px;}
-					.block-for-line2{min-width: 230px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 90px; right: 0;border-right:#f3f3f3 solid  10px; border-bottom:#f3f3f3 solid  10px; min-height: 200px; border-top-right-radius: 40%; border-bottom-right-radius: 40%;
+					.number-two{font-family: 'CoreSansNR'; font-size: 20px; color:  #00a1d6;border-radius: 50%; padding: 20px 33px 20px 27px; background-color: #f3f3f3; width: 60px; margin: 30px auto -20px;z-index: 3; position: relative; border: 10px solid rgba(255, 255, 255, 1);left: 10px; }
+					.block-for-line2{min-width: 200px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 90px; right: 30px;border-right:#f3f3f3 solid  10px; border-bottom:#f3f3f3 solid  10px; min-height: 225px; border-top-right-radius: 45%; border-bottom-right-radius: 45%;
 					} 
+					.block-for-line3{min-height: 1px; min-width: 430px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 305px; left: 200px;
+						
+					}
+					.block-for-line4{min-width: 180px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 305px; left: 65px;border-left:#f3f3f3 solid  10px; border-bottom:#f3f3f3 solid  10px; min-height: 140px; border-top-left-radius: 45%; border-bottom-left-radius: 45%;
+					} 
+					.block-for-line5{min-height: 1px; min-width: 430px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 435px; left: 200px;
+					}
+					.block-for-line6{min-width: 230px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 435px; right: 30px;border-right:#f3f3f3 solid  10px; border-bottom:#f3f3f3 solid  10px; min-height: 280px; border-top-right-radius: 50%; border-bottom-right-radius: 50%;
+					}
 					.dialog-content{ width: 450px; height: 95px;background-color: #f3f3f3; border-radius: 15px; padding: 15px 30px 0 ;  margin: 65px 95px 0 auto ; position: relative;
 
 						&:before{content: ""; display: block; border-right: 30px solid #f3f3f3;
 						border-top: 15px solid transparent;	position: absolute;  top: 40px; left: -30px;
 						}
-						p{font-family: 'CoreSansNR'; text-size: 20px;margin: 0; line-height: 1.1;
+						p{font-family: 'CoreSansNR'; font-size: 20px;margin: 0; line-height: 1.1;
 							
 						}
 					}
 					.super-button{ width: 270px; height: 60px;  text-decoration: none; background-color: #00a1d6; border-radius: 8px; display: flex; align-items: center; justify-content: center; transition: all 0.3s; margin: 25px auto 0;
                     	span{font-size: 32px; font-family: "Intro"; color: rgb(255, 255, 255); margin-bottom: -5px;}
                     &:hover{ background-color: #2ab9e8;}
+                	}
+                	.bottom-text-wrapper{
+                		p{font-size: 16px; font-weight: 200; letter-spacing: 0.3spx;}
                 	}
 				}
 			}
