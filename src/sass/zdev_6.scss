@@ -180,6 +180,7 @@
 			#call-popup2{ min-height: 810px;
 				.main-wrapper{ text-align: center; position: relative;
 					.seljodka{position: absolute; bottom:-52px; left: 0;}
+					.little-seljodka{display: none;}
 					.popup-main-heading{color:  #00a1d6; position: relative; z-index: 2;
 						.top-part{width: 100%; padding: 55px 0 0 0;
 							h2{font-family: 'Intro'; font-size: 52px; margin: 0; text-transform: uppercase; }
@@ -190,7 +191,7 @@
 					}
 					.text-wrapper{ max-width: 500px; margin: 0 auto 30px ;
 						
-						p{font-family: 'CoreSansNR'; text-size: 20px;  }
+						p{font-family: 'CoreSansNR'; font-size: 20px;  }
 					}
 					.popup-line{position: absolute;}
 					.block-for-line1{  min-height: 1px; min-width: 230px; border-top:#f3f3f3 solid  10px; z-index: 1; top: 90px;}
@@ -214,7 +215,7 @@
 						&:before{content: ""; display: block; border-right: 30px solid #f3f3f3;
 						border-top: 15px solid transparent;	position: absolute;  top: 40px; left: -30px;
 						}
-						p{font-family: 'CoreSansNR'; text-size: 20px;margin: 0; line-height: 1.1;
+						p{font-family: 'CoreSansNR'; font-size: 20px;margin: 0; line-height: 1.1;
 							
 						}
 					}
