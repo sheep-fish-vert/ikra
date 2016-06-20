@@ -380,7 +380,12 @@
 }
 
 @media screen and (max-width: 666px){
-
+	
+	.fencybox-wrap{ 
+		.fancybox-inner{
+			width: calc(100% + 20px) !important;
+		}
+	}	
 }
 @media screen and (max-width: 479px){
 	.block2{
