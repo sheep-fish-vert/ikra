@@ -5,8 +5,8 @@ function InitSlider(){
   swipeToSlide: true,
   dots: false,
   arrows: true,
-  prevArrow: '<button type="button" class="slick-prev"><img src="images/slider-arrow-prev.png"></button>',
-  nextArrow: '<button type="button" class="slick-next"><img src="images/slider-arrow.png"></button>',
+  prevArrow: '<button type="button" class="slick-prev"></button>',
+  nextArrow: '<button type="button" class="slick-next"></button>',
   responsive: [
 	    {
 	      breakpoint: 767,
@@ -27,8 +27,8 @@ function InitSlider_1(){
 	   swipeToSlide: true,
 	   dots: false,
 	   arrows: true,
-	   prevArrow: '<button type="button" class="slick-prev"><img src="images/competition-slider-left-arrow.png"></button>',
-	   nextArrow: '<button type="button" class="slick-next"><img src="images/competition-slider-right-arrow.png"></button>',
+	   prevArrow: '<button type="button" class="slick-prev"></button>',
+	   nextArrow: '<button type="button" class="slick-next"></button>',
 	    responsive: [
 	 	    {
 	 	      breakpoint: 767,
