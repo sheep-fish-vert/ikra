@@ -9,7 +9,71 @@
 }
 
 @media screen and (max-width: 1130px){
-    .mbox2{max-width: 768px; margin: 0 auto;}
+
+    .page-inside{ background-size: auto;}
+    .mbox2{max-width: 768px; margin: 0 auto; }
+
+    .competition .conteiner .mbox2{
+        .fotbolki {left: -176px; top: 50px;}
+        .ashead {left:  auto; right: 44px; width: 180px;top: 58px;}
+        .violetta { bottom: 0; width: 480px; }
+        .petr{right: -29px;}
+        .comment{right: 20px;}
+        .super-button{z-index: 5;}
+    }
+
+    .competition-block2 {
+        .title-text{padding-bottom: 39px;}
+        .convert{padding-bottom: 74px;
+            .conve{padding: 0;
+                .item {
+                    .cik { width: 179px; height: 179px;
+                        p{ font-size: 17px;
+                            span { font-size: 29px;}
+                        }
+                        b{font-size: 41px;  padding-left: 20px;}
+                        .der span {font-size: 17px;}
+                    }
+                    .con {top: 41px; width: 92px; left: 25px;}
+                }
+                .item2 {
+                    .cik { margin-left: 50px; }
+                    .con {top: 57px;left: -4px;}
+                }
+                .item3{
+                    .cik { margin-left: 46px;} 
+                    .con{ left: -2px; top: 40px; width: 79px;}
+                }
+            }
+        }
+    }
+
+    .competition-block3 .contein {
+        .after-lists{ flex-wrap: wrap; max-width: 410px; margin: 0 auto; padding: 0;
+            .list-tshirt{float: none; margin: 0 auto; margin-bottom: 65px;
+                .head{padding: 19px 0 12px;
+                    .con{left: -4px;}
+                    p{ padding-left: 105px;}
+                }
+                ul{margin: 0;}
+            }
+            .list-note-book{
+                ul{margin-left: 0;}
+                .head {
+                    .con{left: -25px;}
+                    p {padding-left: 75px;}
+                }
+            }
+            .list-travell{
+                .head{
+                    .con { top: 0px; left: 1px;}
+                    p {padding-left: 93px;}
+                }
+                ul{margin-left: 33px;}
+            }
+        }
+        .button-row { padding-top: 44px;}
+    }
 }
 @media screen and (max-width: 1024px){
 
@@ -19,6 +83,12 @@
     .block1 .conteiner .lang{  margin-right: -16px;}
     .block1 .boxer .after-text { font-size: 42px; padding-top: 27px; padding-bottom: 42px;}
 
+}
+@media screen and (max-width: 768px){
+    .competition .conteiner .mbox2{ height: 723px;
+        .violetta { bottom: 0; width: 480px; left: -75px;}
+        
+    }
 }
 @media screen and (max-width: 767px){
 
@@ -36,7 +106,81 @@
 
     /* block 1 */
 
-    
+
+    /* header */
+        .competition .conteiner .mbox2 {
+            .ashead{display: none;}
+            .logo{width: 142px; left: calc(50% - 142px/2); top: 30px;}
+            .fotbolki {left: -80px; width: 457px; top: 14px;}
+            .conk{width: 176px; height: 62px; left: calc(50% - 176px/2); top: 102px;
+                 span { font-size: 22px;}
+            }
+            .petr { right: -3px; width: 168px;bottom: 74px;}
+            .violetta { bottom: 74px; width: 268px;left: -18px;}
+            .super-button { width: 280px; height: 62px; left: calc(50% - 280px/2); bottom: 13px;
+                span {font-size: 24px;}
+            }
+            .comment{background-size: 100% 100%; width: 276px; height: 193px; bottom: 287px;
+                .conwer p{padding: 0 20px; font-size: 16px;}
+            }
+        }
+    /* header */   
+
+
+    /* competition-block2 */
+        .competition-block2{ 
+            .title-text{padding-bottom: 19px; padding-top: 30px;}
+            .convert{padding-bottom: 18px;
+                .conve{
+                    .item { width: 280px; margin: 0 auto; float: none; margin-bottom: 32px;
+                        .cik { width: 171px; height: 171px; margin-left: 54px;}
+                        .con { top: 41px; width: 85px; left: 23px;}
+                    }
+                    .item2{
+                        .cik {margin-left: 63px;}
+                        .con { top: 53px; left: 14px; width: 84px;}
+                    }
+                    .item3{
+                        .con { top: 37px; width: 74px; left: 17px;}
+                        .cik{margin-left: 61px;}
+                    }
+                }
+            }
+        }
+    /* competition-block2 */
+
+    /* competition-block3 */
+        .competition-block3 .contein{
+            .title-text { padding-top: 42px;   padding-bottom: 37px;}
+            .after-lists{display: flex; padding: 0 20px; justify-content: center;
+                .list-tshirt { width: 100%;  margin-bottom: 0px; padding-bottom: 68px;
+                    .head{
+                        p { padding-left: 151px;}
+                        .con {left: 42px;}
+                    }
+                    ul li { width: 50%;}
+                }
+                .list-note-book{ float: none; width: 138px;  
+                    .head{padding: 37px 0 15px;
+                        .con {left: 32px; top: -23px; width: 72px;}
+                        p { padding-left: 35px;}
+                    }
+                }
+                .list-travell{ width: 138px;
+                    .head{padding: 37px 0 15px;
+                        .con { left: 30px; top: -37px; width: 62px;}
+                        p { padding-left: 26px;}
+                    }
+                    ul{margin-left: 3px; padding: 22px 24px 18px 10px}
+                }
+            }
+            .button-row { padding-top: 32px;  padding-bottom: 35px;
+                p { padding-top: 14px;}
+                .super-butt{max-width: 280px;}
+            }
+        }
+    /* competition-block3 */
+
 
 }
 @media screen and (max-width: 666px){
