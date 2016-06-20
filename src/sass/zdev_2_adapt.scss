@@ -47,6 +47,33 @@
             }
         }
     }
+
+    .competition-block3 .contein {
+        .after-lists{ flex-wrap: wrap; max-width: 410px; margin: 0 auto; padding: 0;
+            .list-tshirt{float: none; margin: 0 auto; margin-bottom: 65px;
+                .head{padding: 19px 0 12px;
+                    .con{left: -4px;}
+                    p{ padding-left: 105px;}
+                }
+                ul{margin: 0;}
+            }
+            .list-note-book{
+                ul{margin-left: 0;}
+                .head {
+                    .con{left: -25px;}
+                    p {padding-left: 75px;}
+                }
+            }
+            .list-travell{
+                .head{
+                    .con { top: 0px; left: 1px;}
+                    p {padding-left: 93px;}
+                }
+                ul{margin-left: 33px;}
+            }
+        }
+        .button-row { padding-top: 44px;}
+    }
 }
 @media screen and (max-width: 1024px){
 
@@ -103,22 +130,56 @@
     /* competition-block2 */
         .competition-block2{ 
             .title-text{padding-bottom: 19px; padding-top: 30px;}
-            .convert .conve{
-                .item { width: 280px; margin: 0 auto; float: none; margin-bottom: 32px;
-                    .cik { width: 171px; height: 171px; margin-left: 54px;}
-                    .con { top: 41px; width: 85px; left: 23px;}
-                }
-                .item2{
-                    .cik {margin-left: 63px;}
-                    .con { top: 53px; left: 14px; width: 84px;}
-                }
-                .item3{
-                    .con { top: 37px; width: 74px; left: 17px;}
-                    .cik{margin-left: 61px;}
+            .convert{padding-bottom: 18px;
+                .conve{
+                    .item { width: 280px; margin: 0 auto; float: none; margin-bottom: 32px;
+                        .cik { width: 171px; height: 171px; margin-left: 54px;}
+                        .con { top: 41px; width: 85px; left: 23px;}
+                    }
+                    .item2{
+                        .cik {margin-left: 63px;}
+                        .con { top: 53px; left: 14px; width: 84px;}
+                    }
+                    .item3{
+                        .con { top: 37px; width: 74px; left: 17px;}
+                        .cik{margin-left: 61px;}
+                    }
                 }
             }
         }
     /* competition-block2 */
+
+    /* competition-block3 */
+        .competition-block3 .contein{
+            .title-text { padding-top: 42px;   padding-bottom: 37px;}
+            .after-lists{display: flex; padding: 0 20px; justify-content: center;
+                .list-tshirt { width: 100%;  margin-bottom: 0px; padding-bottom: 68px;
+                    .head{
+                        p { padding-left: 151px;}
+                        .con {left: 42px;}
+                    }
+                    ul li { width: 50%;}
+                }
+                .list-note-book{ float: none; width: 138px;  
+                    .head{padding: 37px 0 15px;
+                        .con {left: 32px; top: -23px; width: 72px;}
+                        p { padding-left: 35px;}
+                    }
+                }
+                .list-travell{ width: 138px;
+                    .head{padding: 37px 0 15px;
+                        .con { left: 30px; top: -37px; width: 62px;}
+                        p { padding-left: 26px;}
+                    }
+                    ul{margin-left: 3px; padding: 22px 24px 18px 10px}
+                }
+            }
+            .button-row { padding-top: 32px;  padding-bottom: 35px;
+                p { padding-top: 14px;}
+                .super-butt{max-width: 280px;}
+            }
+        }
+    /* competition-block3 */
 
 
 }
