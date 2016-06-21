@@ -212,7 +212,8 @@ function fancyboxForm(){
   })
 }
 
-function fancyboxForm(){
+
+function fancyboxForm2(){
   $('.fancybox-form2').fancybox({
     openEffect  : 'fade',
     closeEffect : 'fade',
@@ -285,5 +286,6 @@ $(document).ready(function(){
 
    Maskedinput();
    fancyboxForm();
+   fancyboxForm2();
 
 });
