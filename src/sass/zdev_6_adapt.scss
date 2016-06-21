@@ -196,7 +196,7 @@
 		.mbox{
 			.slider-conteiner{max-width: 281px; top: -220px; left: 50%; margin-left: -140px;
 				.slick-arrow{width: 75px; min-height: 75px; top: 500px;
-					&.slick-prev{ left: 17%;
+					&.slick-prev{ left: 17%; 
 						
 					}
 					&.slick-next{ right: 17%;
@@ -296,7 +296,7 @@
 						
 					}
 				}
-				.slide{ flex-direction: column;  min-height: 500px;  margin: 0 6px 0 9px;
+				.slide{ flex-direction: column;  height: 500px;  margin: 0 6px 0 9px;
 					.image-wrapper{padding: 0 40px 45px 70px;
 						img{}
 					}
@@ -386,7 +386,12 @@
 				
 			}
 		}
+		.block-1-slider-wrapper .slick-arrow{
+			&.slick-prev{top:122px;}
+			&.slick-next{top:122px;}
+		}
 	}
+	
 }
 
 @media screen and (max-width: 666px){
