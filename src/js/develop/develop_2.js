@@ -3,9 +3,11 @@
 
 
 $(document).ready(function(){
-   AOS.init({ });
-
-
+   AOS.init({});
+   setTimeout(function(){
+       AOS.refresh();
+   }, 100)
+   
 });
 
 $(window).load(function(){
@@ -13,21 +15,7 @@ $(window).load(function(){
 });
 
 $(window).resize(function(){
-<<<<<<< HEAD
 
     AOS.refresh();
-=======
-/*
-    AOS.init({
-        disable: function () {
-            var maxWidth = 1280;
-            console.log( $(window).width() > maxWidth );
-            return $(window).width() > maxWidth;
-        }
-    });
-
-*/
-    AOS.refreshHard();
->>>>>>> a9496db1e018738020218c34e4686b12adaeb9ba
 
 });
