@@ -185,8 +185,8 @@
                 ul{ position: relative; z-index: 2; background-color: white; padding: 22px 24px 18px; list-style: none; max-width: 150px; margin: 0; margin-left: 20px; cursor: pointer;
                     li{width: 100%; position: relative; max-width: 94px; padding-bottom: 5px;
                         .list-num{display: block; width: 38px; height: 25px; text-align: center; line-height: 25px; font-size: 18px; font-family: "CoreSansNR"; color: rgb(0, 0, 0); background-color: #ececec;}
-                        .name{position: absolute; left: 48px; top: 0px; bottom: 5px; line-height: 25px; max-width: calc(100% - 40px);overflow: hidden; font-size: 18px; font-family: "CoreSansNR"; color: rgb(0, 0, 0); transition: all 0.3s;
-                            &:before{content: ''; position: absolute; left: 0; top: 0; bottom: 0; right: 0; box-shadow: inset -32px 0px 32px -8px white; pointer-events: none; transition: box-shadow 0.3s;}
+                        .name{position: absolute; left: 48px; top: 0px; bottom: 5px; line-height: 25px; max-width: calc(100% - 40px);overflow: hidden; font-size: 18px; font-family: "CoreSansNR"; color: rgb(0, 0, 0);
+                            &:before{content: ''; position: absolute; left: 0; top: 0; bottom: 0; right: 0; box-shadow: inset -32px 0px 32px -8px white; pointer-events: none; transition: box-shadow 0.1s;}
                             
                         }
                         &:hover{z-index: 5; 
@@ -258,4 +258,3 @@
 
 
 .slick-dots{display: none !important;}
-.competition-block4 .mbox2 .block-4-slider-wrapper .slick-arrow{font-size: 1px; width: 21px; height: 40px;}
