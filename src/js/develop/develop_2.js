@@ -4,7 +4,10 @@
 
 $(document).ready(function(){
    AOS.init({});
-   AOS.refresh();
+   setTimeout(function(){
+       AOS.refresh();
+   }, 100)
+   
 });
 
 $(window).load(function(){
