@@ -318,20 +318,20 @@
 		}
 	}
 
-	.fancybox-wrap{min-width: 320px!important;  max-width: 320px;
+	.fancybox-form2{min-width: 280px!important;  max-width: 280px;
 		.fancybox-skin{
 			.fancybox-outer{
-				.fancybox-inner{min-width: 320px!important;width: calc(100% + 20px) !important;}
+				.fancybox-inner{min-width: 280px!important; width: 280px!important;}
 				#call-popup2{ min-height: 1024px;
 					.main-wrapper{ text-align: center; position: relative; overflow: hidden;min-height: 1024px;
 						.seljodka{display: none;}
 						.little-seljodka{position: absolute; bottom:80px; left: 50px; display: block;}
 						.popup-main-heading{color:  #00a1d6; position: relative; z-index: 2;
-							.top-part{width: 100%; padding: 65px 15px 0 0;
+							.top-part{width: 100%; padding: 65px 0px 0 0;
 								h2{font-family: 'Intro'; font-size: 42px; margin: 0; text-transform: uppercase; }
 							}
 							.lower-part{
-								h3{font-family: 'Intro'; font-size: 20px; margin: 0 20px 0 0px;}
+								h3{font-family: 'Intro'; font-size: 20px; margin: 0 0px 0 0px;}
 							}
 						}
 						.text-wrapper{ max-width: 280px; margin: 0 auto 0px ; padding: 0 15px 0 0;
@@ -377,15 +377,20 @@
 			}
 		}
 	}
+	.competition-block1 .mbox2 {padding-bottom: 10px;
+		.heading-wrapper{ padding: 40px 15px 15px;
+			.main-part{padding-bottom: 15px;
+				h2{line-height: 1.2;}
+			}
+			.lower-part{max-width: 280px;line-height: 1.2;
+				
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 666px){
 	
-	.fencybox-wrap{ 
-		.fancybox-inner{
-			width: calc(100% + 20px) !important;
-		}
-	}	
 }
 @media screen and (max-width: 479px){
 	.block2{
@@ -473,10 +478,10 @@
 		}
 	}
 
-	.fancybox-wrap{min-width: 280px!important;  max-width: 280px;
+	.fancybox-form2{
 		.fancybox-skin{
 			.fancybox-outer{
-				.fancybox-inner{min-width: 280px!important;}
+				.fancybox-inner{}
 				#call-popup2{ min-height: 1024px;
 					.main-wrapper{
 						.little-seljodka{position: absolute; bottom:80px; left: 30px; display: block;}
@@ -532,16 +537,7 @@
 		}
 	}
 
-	.competition-block1 .mbox2 {padding-bottom: 10px;
-		.heading-wrapper{ padding: 40px 0 15px 0;
-			.main-part{padding-bottom: 15px;
-				h2{line-height: 1.2;}
-			}
-			.lower-part{max-width: 280px;line-height: 1.2;
-				
-			}
-		}
-	}
+	
 }
 @media screen and (max-width: 320px){
 

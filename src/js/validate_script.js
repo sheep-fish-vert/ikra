@@ -213,6 +213,18 @@ function fancyboxForm(){
 }
 
 
+function fancyboxForm2(){
+  $('.fancybox-form2').fancybox({
+    openEffect  : 'fade',
+    closeEffect : 'fade',
+    autoResize:true,
+    wrapCSS:'fancybox-form2',
+    'closeBtn' : true,
+    fitToView:true,
+    padding:'0'
+  })
+}
+
 //ajax func for programmer
 
 function someAjax(item, someUrl, successFunc, someData){
@@ -274,5 +286,6 @@ $(document).ready(function(){
 
    Maskedinput();
    fancyboxForm();
+   fancyboxForm2();
 
 });
