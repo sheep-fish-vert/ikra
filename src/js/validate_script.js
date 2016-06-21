@@ -212,6 +212,18 @@ function fancyboxForm(){
   })
 }
 
+function fancyboxForm(){
+  $('.fancybox-form2').fancybox({
+    openEffect  : 'fade',
+    closeEffect : 'fade',
+    autoResize:true,
+    wrapCSS:'fancybox-form2',
+    'closeBtn' : true,
+    fitToView:true,
+    padding:'0'
+  })
+}
+
 //ajax func for programmer
 
 function someAjax(item, someUrl, successFunc, someData){
