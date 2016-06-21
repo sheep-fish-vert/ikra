@@ -1,8 +1,9 @@
 @media screen and (max-width: 1920px){
     body{ zoom: 100%; }
 }
-@media screen and (max-width: 1700px){
+@media screen and (max-width: 1700px) and (min-width: 1300px) {
      body{ zoom: 75%; }
+     .aos-init{opacity: 1 !important; transform: none !important;}
 }
 @media screen and (max-width: 1300px){
     body{ zoom: 100%; }
@@ -91,6 +92,7 @@
     }
 }
 @media screen and (max-width: 767px){
+    .competition-block4 .mbox2 .block-4-slider-wrapper .slick-arrow{    top: calc(50% - 11px) !important;}
 
     .mbox2{max-width: 320px; margin: 0 auto;}
 
