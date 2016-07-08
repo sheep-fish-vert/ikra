@@ -88,7 +88,7 @@
                         &.login:before{content: ''; position: absolute; top: calc(55px/2 - 24px/2); left: calc(25px - 21px/2); background-image: url('../images/login.png'); width: 21px; height: 24px; }
                         &.pass:before{content: ''; position: absolute; top: calc(55px/2 - 25px/2); left: calc(25px - 18px/2);; background-image: url('../images/pass.png'); width: 18px; height: 25px;}
                     }
-                    input{width: 100%; border: none; border-radius: 8px; border:1px solid #e0e0e0; height: 55px; font-size: 14px; font-family: "CoreSansNR"; color: rgb(66, 66, 66); padding-left: 50px;
+                    input{width: 100%; border: none; border-radius: 8px; border:1px solid #e0e0e0; height: 55px; font-size: 16px; font-family: "CoreSansNR"; color: rgb(66, 66, 66); padding-left: 50px;
                         &.error{border-color: red;}
                     }
                     .errorText{display: none !important;}
@@ -100,7 +100,7 @@
                     }
                 }
                 .after-row{ 
-                    a{font-size: 14px; font-family: "CoreSansNR"; text-decoration: underline; line-height: 1.2; color: black; transition: all 0.3s;
+                    a{font-size: 16px; font-family: "CoreSansNR"; text-decoration: underline; line-height: 1.2; color: black; transition: all 0.3s;
                         &:hover{color: #fa5101; display: inline-block;}
                     }
                     .reg{ float: left; padding-left: 12px;}

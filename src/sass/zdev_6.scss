@@ -3,11 +3,13 @@
 		.slider-conteiner{position: absolute; top: -300px; left: -30px; max-width: 1080px; min-height: 500px; 
 			.slick-arrow{width: 111px; min-height: 111px; top: 200px;
 				&:before{content: none;}
-				&.slick-prev{left: -90px; background-image: url(../images/slider-arrow-prev.png); transition: all 0.3s;background-size: 100% 100%;
-					&:hover{background-image: url(../images/left.png);}					
+				&.slick-prev{left: -90px; background-image: url(../images/left-slider-row-sprite.png); transition: all 0.01s;background-size: cover;background-position: 50% 0%;
+					&:hover{background-image: url(../images/left-slider-row-sprite.png);background-position: 50% 100%;
+					}					
 				}
-				&.slick-next{right: -75px; background-image: url(../images/slider-arrow.png);transition: all 0.3s; background-size: 100% 100%;
-					&:hover{background-image: url(../images/right.png);}
+				&.slick-next{right: -75px; background-image: url(../images/right-slider-row-sprite.png);transition: all 0.01s; background-size: cover; background-position: 50% 100%;
+					&:hover{background-image: url(../images/right-slider-row-sprite.png);background-position: 50% 0%;
+					}
 				}
 				img{width: 111px; min-height: 111px;
 					
