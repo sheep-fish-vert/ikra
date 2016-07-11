@@ -1,8 +1,12 @@
 @media screen and (max-width: 1920px){
     body{ zoom: 100%; }
 }
-@media screen and (max-width: 1700px) and (min-width: 1300px) {
-     body{ zoom: 85%; }
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+  body {
+    zoom: 85%; }
+}
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+     body{ zoom: 70%; }
      .aos-init{opacity: 1 !important; transform: none !important;}
 }
 @media screen and (max-width: 1300px){

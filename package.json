@@ -1,5 +1,5 @@
 {
-  "name": "ship.fish.frontend",
+  "name": "gulp",
   "version": "1.4.1",
   "description": "basic verst",
   "author": "",
@@ -15,5 +15,25 @@
     "gulp-concat": "^2.6.0",
     "gulp-html-replace": "^1.5.5",
     "gulp-sass": "^2.2.0"
-  }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1"
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheep-fish-vert/ikra.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheep-fish-vert/ikra/issues"
+  },
+  "homepage": "https://github.com/sheep-fish-vert/ikra#readme"
 }
