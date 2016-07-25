@@ -19,7 +19,7 @@ $(window).load(function(){
 });
 
 $(window).resize(function(){
-
+    $('.content-rules').jScrollPane();
     AOS.refresh();
 
 });
