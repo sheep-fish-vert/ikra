@@ -220,8 +220,12 @@ function fancyboxFormAdd(){
     autoResize:true,
     wrapCSS:'fancybox-form-add',
     'closeBtn' : true,
+     beforeShow : function(){
+        $('.content-rules').jScrollPane();
+     },
     fitToView:true,
     padding:'0'
+   
   })
 }
 
@@ -294,6 +298,8 @@ function someAjax(item, someUrl, successFunc, someData){
 $(document).ready(function(){
 
    validate('#call-popup .contact-form', {submitFunction:validationCall});
+
+   validate('.contact-form-add', {submitFunction:validationCall});
 
    validate('.contact-form-head');
 
