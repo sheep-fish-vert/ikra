@@ -6,7 +6,11 @@ $(document).ready(function(){
    AOS.init({});
    setTimeout(function(){
        AOS.refresh();
-   }, 100)
+   }, 100);
+
+
+        $('.content-rules').jScrollPane();
+
    
 });
 

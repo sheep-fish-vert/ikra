@@ -79,12 +79,41 @@
         }
         .button-row { padding-top: 44px;}
     }
+
 }
 @media screen and (max-width: 1024px){
-        .block1{background-image: url('../images/top-bg.png'); background-size: cover; background-position: top center; background-color: white;
-            video{display:none!important;}
+    .block1{background-image: url('../images/top-bg.png'); background-size: cover; background-position: top center; background-color: white;
+        video{display:none!important;}
+    }
+
+    .fancybox-form-add  .fancybox-inner{width: 550px !important; min-width: 0 !important; }
+    #call-popup3 { width: 550px; 
+        .about-us {
+            &:before{ background-size: 70%; }
+            &:after{ background-size: 70%; }
+            .slogan{ padding-top: 20px;}
+            .we-are{padding-top: 25px;}
+            .center-text { padding-top: 40px;}
+            .buttoner { padding-top: 30px;  padding-bottom: 20px;}
         }
+    }
+     #call-popup4 {
+        form {
+            .supreme{
+                a{width: 200px; height: 200px;}
+            }
+            .contact-form-row .con-row{display: block; 
+                .contact-form-item{width: 100%;}
+            }
+        }
+    }
+    #call-popup5 {
+        .top-name{margin-bottom: 30px;}
+        .content-rules{height: 400px;}
+    }
+
 }
+
 @media screen and (max-width: 992px){
     .block1 .conteiner .lang { right: 0px;}
     .block1 .conteiner .lang{  margin-right: -16px;}
@@ -96,6 +125,36 @@
         .violetta { bottom: 0; width: 480px; left: -75px;}
         
     }
+
+    .fancybox-form-add  .fancybox-inner{width: 280px !important; min-width: 0 !important; }
+    #call-popup3 { width: 280px; 
+        .about-us { padding: 20px;
+            &:before{ display: none; }
+            &:after{ display: none; }
+            .slogan{ padding-top: 20px;}
+            .we-are{padding-top: 25px;}
+            .center-text { padding-top: 40px;}
+            .buttoner { padding-top: 30px;  padding-bottom: 20px;
+                a{width: 100%;}
+            }
+        }
+    }
+
+    #call-popup4 {padding: 20px;
+        form { padding: 0;
+            .supreme{ flex-wrap: wrap;
+                a{width: 200px; height: 140px; margin-bottom: 15px;}
+            }
+            .contact-form-row .con-row{display: block; 
+                .contact-form-item{width: 100%;}
+            }
+        }
+    }
+
+    #call-popup5 { padding: 20px;
+        .content-rules{height: 320px;}
+    }
+
 }
 @media screen and (max-width: 767px){
     .competition-block4 .mbox2 .block-4-slider-wrapper .slick-arrow{    top: calc(50% - 11px) !important;}

@@ -212,6 +212,19 @@ function fancyboxForm(){
   })
 }
 
+/*fansybox на форме*/
+function fancyboxFormAdd(){
+  $('.fancybox-form-add').fancybox({
+    openEffect  : 'fade',
+    closeEffect : 'fade',
+    autoResize:true,
+    wrapCSS:'fancybox-form-add',
+    'closeBtn' : true,
+    fitToView:true,
+    padding:'0'
+  })
+}
+
 
 function fancyboxForm2(){
   $('.fancybox-form2').fancybox({
@@ -287,5 +300,6 @@ $(document).ready(function(){
    Maskedinput();
    fancyboxForm();
    fancyboxForm2();
+   fancyboxFormAdd();
 
 });
